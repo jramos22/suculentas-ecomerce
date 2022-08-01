@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Khula:wght@300&display=swap" rel="stylesheet">
+  <title>Suculenta's Garden</title>
+</head>
+  <body>
+    <!--------------Tabs-------------->
+    <div class="tabs">
+      <h2>Tabs</h2>
+      <ul class="tabs__list clearfix">
+          <li><a href="#tabs__content--tab1" class="tabs__list--menu">Detalle producto</a></li>
+          <li><a href="#tabs__content--tab2" class="tabs__list--menu">Como cuidarlas</a></li>
+          <li><a href="#tabs__content--tab3" class="tabs__list--menu">Comprar producto</a></li>
+      </ul>
+
+      <div class="tabs__content">
+          <div id="tabs__content--tab1" class="tabs__content--info clearfix">
+            <div class="gallery">
+              <!--Contenedor donde se va ver la imagen en grande-->
+              <div class="gallery-content">
+                  <div id="img-1" class="gallery-content-img">
+                      <img id="big-image" src="../img/galeria-1.png" alt="newzealand1">
+                  </div>
+              </div>
+              <div class="wrapper-gallery clearfix">
+                  <div class="gallery-prev clearfix">
+                      <ul class="gallery-list">
+                          <li class="gallery-list-img"><img class="miniatura"  src="../img/galeria-2.png"  alt="galeria1"></li>
+                          <li class="gallery-list-img"><img class="miniatura"  src="../img/galeria-3.png"  alt="galeria2"></li>
+                  </div>
+              </div>
+            </div>
+
+            <div class="tabs__info" >
+              <h1>Echeveria agavoides</h1>
+              <p>
+                Esta suculenta son los bordes rojos en las hojas. Por esta razón tambien se le conoce como la echeveria lapiz labial.Sus flores son un espectaculo. Son color rojo rosado con pétalos de color amarillo oscuro. Espera ver sus flores en verano
+              </p>
+              <ul>
+                <li><span>Area Nativa:</span>Mexico</li>
+                <li><span>Altura:</span>5 pulgadas</li>
+                <li><span>Iluminación:</span>No tolera pleno al mediodía</li>
+              </ul>
+            </div>
+          </div>
+          <div id="tabs__content--tab2" class="tabs__content--info">
+            <h1>Cuidados</h1>
+            <ul>
+              <li>Pleno sol y sombra parcial</li>
+              <li>Adecuada para interior si recibe la luz necesaria</li>
+              <li>Riego: seguir la regla general para las suculentas</li>
+              <li>Tamaño: hasta unos 60 cm (alto) y 60 cm (ancho)</li>
+              <li>No resiste bien temperaturas bajo cero continuadas</li>
+              <li>Propagación por hijuelos</li>
+              <li>Crece activamente en primavera y verano</li>
+            </ul>
+          </div>
+          <div id="tabs__content--tab3" class="tabs__content--info">
+            <div class="tabs__content--addShoppingCart">
+              <img src="../img/compra.png" alt="suculenta">
+
+              <p>$6.00</p>
+
+              <img src="../img/estrellas.png" alt="estrellas">
+              <button class="button-principal">Añadir al carrito</button>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <script src="../js/tabs.js"></script>
+    <script src="../js/galery.js"></script>
+  </body>
+</html>

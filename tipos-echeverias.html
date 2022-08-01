@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Khula:wght@300&display=swap" rel="stylesheet">
+    <title>Suculenta's Garden</title>
+  </head>
+  <body>
+    <div id="wrapper--principal">
+      <!--------------Carrito de compras-------------->
+      <div id="drawer--js" class="drawer">
+        <a id="drawer--close" class="closebtn">&times;</a>
+        <div id="shoppingCart"></div>
+        <div class="content--button"><a href="carrito.html">Comprar</a></div>
+      </div>
+
+      <!--------------Menú hamburguesa-------------->
+      <div class="header--movil">
+        <div class="header__logo">
+          <a href="index.html"><img src="img/logo-movil.png" alt="Logo de Suculenta's Garden"></a>
+        </div>
+
+        <div class="signincart">
+          <a id="drawer--movil"><img class="cart" src="img/carrito-movil.png"></a>
+        </div>
+
+        <div class="content--hamburguer">
+          <a id="menu--movil"><img src="img/menu-hamburguesa.png"></a>
+        </div>
+
+        <div id="menu--js" class="drawer--menu">
+          <a id="menu--close" class="closebtn">&times;</a>
+          <div class="menu--hamburguer">
+            <ul>
+              <li><a href="index.html" class="menu__line">Inicio</a></li>
+              <li><a href="tipos-echeverias.html" class="menu__line">Producto</a></li>
+              <li><a class="menu__line menu__title--family">Familia Suculentas</a></li>
+              <li><a href="tipos-echeverias.html" class="menu__family">Echeveria</a></li>
+              <li><a class="menu__family">Aonium</a></li>
+              <li><a href="tipos-senecio.html" class="menu__family">Senecio</a></li>
+              <li><a class="menu__family">Supervium</a></li>
+              <li><a class="menu__family">Cactus</a></li>
+              <li><a class="menu__family">Crassula</a></li>
+              <li><a class="menu__family">Kalanchoe</a></li>
+              <li><a class="menu__family">Haworthia</a></li>
+              <li><a class="menu__family">Sedum</a></li>
+              <li><a href="#signincart__modal" class="menu__line menu__register">Registrarse</a></li>
+              <li><a href="contacto.html" class="menu__line">Contacto</a></li>
+              <li><a class="menu__line menu__ayuda">Ayuda</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!---------header--------->
+      <div class="header clearfix">
+        <div class="tangle-1 clearfix">
+
+          <div class="header__logo">
+            <a href="index.html"><img src="img/logo.png" alt="Logo de Suculenta's Garden"></a>
+          </div>
+
+          <div class="header__menu">
+            <ul class="menu__nav clearfix">
+              <li class="nav__list button-principal"><a href="index.html">Inicio</a></li>
+              <li class="nav__list button-principal"><a href="tipos-echeverias.html">Producto</a></li>
+              <li class="nav__list button-principal"><a href="contacto.html">Contacto</a></li>
+              <li class="nav__list button-principal"><a href="#">Ayuda</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="tangle-2 clearfix">
+          <div class="search__bar">
+            <input type="text" placeholder="Buscar">
+            <img src="img/buscar.png">
+          </div>
+
+          <div class="signincart">
+            <a href="#signincart__modal"> <img src="img/Registrarse.png"></a>
+            <a id="drawer--view"><img class="cart" src="img/Carrito.png"></a>
+          </div>
+        </div>
+      </div>
+
+      <!--Breadcrumb-->
+      <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ol>
+          <li>
+            <a href="./index.html">
+              INICIO
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-current="page">TIPOS DE ECHEVERIAS</a>
+          </li>
+        </ol>
+      </nav>
+
+      <!--------------Dropdown-------------->
+      <div class="content--drop">
+        <div class="content-dropdown">
+          <details>
+            <summary>
+              FAMILIAS
+            </summary>
+            <ul>
+              <li><a href="tipos-echeverias.html">ECHEVERIA</a></li>
+              <li><a href="#">AONIUM</a></li>
+              <li><a href="tipos-senecio.html">SENECIO</a></li>
+              <li><a href="#">SUPERVIUM</a></li>
+              <li><a href="#">CACTUS</a></li>
+              <li><a href="#">CRASSULA</a></li>
+              <li><a href="#">KALANCHOE</a></li>
+              <li><a href="#">HAWORTHIA</a></li>
+              <li><a href="#">SEDUM</a></li>
+          </ul>
+          </details>
+        </div>
+      </div>
+
+      <!--------------Filtro-------------->
+      <div class="filtro--Content">
+        <select>
+          <option>mayor precio</option>
+          <option>menor pecio</option>
+        </select>
+      </div>
+
+      <!--------------tipos de echeveria-------------->
+      <div class="content--text">
+        <h1>Tipos de Echeverias</h1>
+        <p>
+          Son plantas herbáceas, suculentas, perennes, acaules o bien de tallos simples o ramificados. Las hojas son aplanadas y carnosas, dispuestas en forma de roseta. Son verdes o marrones, frecuentemente con el ápice y el margen rojizos. La inflorescencia lateral es un cincino, un racimo, una panícula o una espiga con flores hermafroditas de cinco sépalos unidos en la base; las corolas son tubulares a cónicas con cinco pétalos de color rosado, rojo, anaranjado, amarillo, blanco o verde.​</p>
+
+        <p>Muchas especies de Echeveria son populares como planta ornamental de jardín. Son resistentes a la sequía, pero se desarrollan mejor con riegos frecuentes y fertilizantes. Se muestran tolerantes a la sombra y a las heladas, pero los híbridos parecen menos tolerantes. Se pueden reproducir vegetativamente por medio de hojas cortadas o, si no son híbridos, por semillas.</p>
+      </div>
+
+      <div class="content--text-movil">
+        <h2>Tipos de Echeverias</h2>
+        <p>Son plantas herbáceas, suculentas, perennes, acaules o bien de tallos simples o ramificados. Las hojas son aplanadas y carnosas, dispuestas en forma de roseta. Son verdes o marrones, frecuentemente con el ápice y el margen rojizos. La inflorescencia lateral es un cincino, un racimo, una panícula o una espiga con flores hermafroditas de cinco sépalos unidos en la base; las corolas son tubulares a cónicas con cinco pétalos de color rosado, rojo, anaranjado, amarillo, blanco o verde.​</p>
+      </div>
+
+      <!--------------Card-------------->
+      <div class="content-cards clearfix">
+      </div>
+
+      <!--------------Modal-------------->
+      <div id="signincart__modal" class="modal">
+        <div class="modal__content">
+          <form action="">
+            <a class= "close__modal" href="#"><img src="img/boton-x.png"></a>
+            <img class="img__sign__up" src="img/registro.png">
+            <h2>Registrarse</h2>
+            <div class="google__facebook__icons">
+              <a href="#"><img src="img/google.png" alt="Registrate con tu cuenta de google"></a>
+              <a href="#"><img src="img/face-register.png" alt="Registrate con tu cuenta de facebook"></a>
+            </div>
+            <div class="sign__in__form">
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/persona.png" id="user-icon-form">
+                </div>
+                  <input class="input1" type="text" placeholder="Nombre Completo" required ="required"/>
+              </div>
+
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/correo.png" id="mail-icon-form">
+                </div>
+                  <input class="input1" type="text" placeholder="E-mail" required ="required"/>
+              </div>
+
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/contraseña.png" id="lock-icon-form">
+                </div>
+                <input class="input1" type="text" placeholder="Contraseña" required ="required"/>
+              </div>
+              <button type="submit" class="button-principal box_button--margin">Registrarse</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!---------Footer--------->
+      <div class="footer">
+        <div class="foo-menu clearfix">
+          <ul class="foo-nav-list">
+            <li class="nav-foo"><a href="index.html">Inicio</a></li>
+            <li class="nav-foo"><a href="tipos-echeverias.html">Producto</a></li>
+            <li class="nav-foo"><a href="contacto.html">Contacto</a></li>
+            <li class="nav-foo"><a href="#">Ayuda</a></li>
+          </ul>
+
+          <p class="copyright">© 2020 - Todos los derechos reservados</p>
+        </div>
+        <div class="follow-us">
+          <p>Síguenos aquí</p>
+          <a class="ig" href="www.instagram.com"><img src="img/instagram.png" alt="Cuenta de Instagram de Suculenta's Garden"></a>
+          <a class="fb" href="www.facebook.com"><img src="img/facebook.png" alt="Cuenta de Facebook de Suculenta's Garden"></a>
+        </div>
+      </div>
+    </div>
+    <script src="js/filter.js"></script>
+    <script src="js/shopping.js"></script>
+    <script src="js/drawer.js"></script>
+    <script src="js/menu--hamburguer.js"></script>
+  </body>
+</html>

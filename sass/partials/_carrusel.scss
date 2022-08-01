@@ -1,0 +1,153 @@
+@mixin circle($i) {
+  border-radius: 100%;
+  height: $i;
+  width: $i;
+}
+
+.center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.wrapperCarrusel {
+  display: flex;
+  grid-gap: 1em;
+  overflow: hidden;
+  width: 1182px;
+
+  & > .inner {
+    display: flex;
+    grid-gap: 1em;
+    transition: all 1s ease-in-out;
+  }
+}
+
+.margin--card {
+  margin-left: 50px;
+}
+
+.cards + .cards {
+  margin-left: 18px;
+}
+
+.cards {
+  border-radius: 0.5em;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 22px;
+  margin-top: 22px;
+
+  & > img {
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+    display: block;
+  }
+
+  & > .content {
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    padding: 1em;
+    text-align: center;
+
+    & > h1,
+    & > h3 {
+      margin: 0.35em 0;
+    }
+
+    & > h1 {
+      font-size: 1.25rem;
+      line-height: 1;
+    }
+
+    & > h3 {
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
+
+    .star {
+      margin-bottom: 20px;
+      margin-left: 6px;
+    }
+
+  }
+}
+
+.map {
+  margin-bottom: 22px;
+  margin-top: 22px;
+  & > button {
+    all: unset;
+    background: lighten($dark-brown, 10);
+    cursor: pointer;
+    margin: 0 0.125em;
+    position: relative;
+    user-select: none;
+    @include circle(1.5em);
+
+    &.active {
+      background: $light-brown-hover;
+    }
+  }
+}
+
+.carrusel--Movil {
+  display: none;
+}
+
+@media(max-width: 500px){
+
+  .carrusel--Desktop {
+    display: none;
+  }
+
+  .carrusel--Movil {
+    display: block;
+    padding-top: 100px;
+  }
+
+  .container-carrusel{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 450px;
+  }
+
+  .wrapperCarrusel {
+    display: flex;
+    grid-gap: 1em;
+    overflow: hidden;
+    width: 350px;
+
+    & > .inner--Movil {
+      display: flex;
+      grid-gap: 1em;
+      transition: all 1s ease-in-out;
+    }
+  }
+
+  .map--Movil {
+    margin-bottom: 22px;
+    margin-top: 22px;
+    & > button {
+      all: unset;
+      background: lighten($dark-brown, 10);
+      cursor: pointer;
+      margin: 0 0.125em;
+      position: relative;
+      user-select: none;
+      @include circle(1.5em);
+
+      &.active {
+        background: $light-brown-hover;
+      }
+    }
+  }
+
+}
+
+@media(max-width: 400px){
+  .carrusel--Movil h1{
+    margin-left: 25px;
+  }
+}

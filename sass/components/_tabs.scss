@@ -1,0 +1,75 @@
+.tabs {
+  height: 479px;
+  margin: 0 auto;
+  width: 867px; }
+
+.tabs__info {
+  float: left;
+  margin-top: 50px;
+  width: 400px; }
+
+.tabs__list {
+  list-style: none;
+  margin-bottom: -1px;
+  padding-left: 0; }
+
+.tabs__list--menu {
+  background-color: $dark-brown;
+  color: $white;
+  float: left;
+  font-weight: bold;
+
+  padding: 10px 80px;
+
+  text-decoration: none; }
+
+.tabs__content {
+  background-color: $white;
+  color: $dark-brown;
+  margin-bottom: 149px;
+  padding: 20px; }
+
+.js-activo {
+  background-color: $light-brown-hover;
+  color: $white; }
+
+.js-contenido-oculto {
+  display: none; }
+
+.tabs__content--info span {
+  font-weight: bold; }
+
+.tabs__content--addShoppingCart {
+  background-color: $white;
+  border-radius: 20px;
+  box-shadow: -2.23663px 5.96436px 52.1881px rgba(0, 0, 0, 0.048);
+  margin-left: 250px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  text-align: center;
+  width: 263px; }
+
+.tabs__content--addShoppingCart button {
+  background-color: $dark-brown;
+  border: 1px solid $dark-brown;
+  border-radius: 20px;
+  color: $white;
+  display: block;
+  margin-left: 64px;
+  margin-top: 20px;
+  padding: 10px 16px; }
+
+.tabs__content--addShoppingCart button:hover {
+  background-color: $light-brown-hover;
+  border: 1px solid $light-brown-hover;
+  color: $white; }
+
+.main-container{
+  display: none;
+}
+
+@media(max-width: 500px){
+  .tabs{
+    display: none;
+  }
+}

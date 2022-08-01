@@ -1,0 +1,102 @@
+.drawer {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #C9C0BB;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 0px;
+}
+.drawer--open{
+  width: 36%;
+}
+.drawer--close{
+  width: 0%;
+}
+.drawer  a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: $dark-brown;
+  display: block;
+  transition: 0.3s;
+}
+
+.drawer  a:hover {
+  color: #f1f1f1;
+}
+
+.drawer  .closebtn {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.content--button{
+  margin-bottom: 13px;
+  margin-left: 253px;
+  margin-top: 28px;
+}
+.content--button a{
+  background-color: $dark-brown;
+  border: solid $dark-brown;
+  border-radius: 102px;
+  color: $white;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: 100px;
+}
+.content--button a:hover {
+  background-color: $white;
+  border: solid $white;
+  color:  $dark-brown;
+}
+
+@media(max-width: 500px){
+  .drawer {
+    background-color: #C9C0BB;
+  }
+  .drawer--open{
+    width: 85%;
+  }
+  .drawer  .closebtn {
+    top: 19px;
+  }
+  .drawer  a {
+    color: $dark-brown;
+  }
+  .content--button{
+    margin-bottom: 13px;
+    margin-left: 137px;
+    margin-top: 28px;
+  }
+  .content--button a{
+    background-color: $dark-brown;
+    border: solid $dark-brown;
+    border-radius: 102px;
+    color: $white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 100px;
+  }
+}
+
+@media(max-width: 400px){
+  .drawer--open{
+    width: 100%;
+  }
+  .content--button{
+    margin-left: 113px;
+  }
+  .drawer  .closebtn {
+    top: 19px;
+    right: 13px;
+  }
+}

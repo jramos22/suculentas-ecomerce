@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Khula:wght@300&display=swap" rel="stylesheet">
+    <title>Suculenta's Garden</title>
+  </head>
+  <body>
+    <div id="wrapper--principal">
+      <!--------------Carrito de compras-------------->
+      <div id="drawer--js" class="drawer">
+        <a id="drawer--close" class="closebtn">&times;</a>
+        <div id="shoppingCart"></div>
+        <div class="content--button"><a href="carrito.html">Comprar</a></div>
+      </div>
+
+      <!--------------Menú hamburguesa-------------->
+      <div class="header--movil">
+        <div class="header__logo">
+          <a href="index.html"><img src="img/logo-movil.png" alt="Logo de Suculenta's Garden"></a>
+        </div>
+
+        <div class="signincart">
+          <a id="drawer--movil"><img class="cart" src="img/carrito-movil.png"></a>
+        </div>
+
+        <div class="content--hamburguer">
+          <a id="menu--movil"><img src="img/menu-hamburguesa.png"></a>
+        </div>
+
+        <div id="menu--js" class="drawer--menu">
+          <a id="menu--close" class="closebtn">&times;</a>
+          <div class="menu--hamburguer">
+            <ul>
+              <li><a href="index.html" class="menu__line">Inicio</a></li>
+              <li><a href="tipos-echeverias.html" class="menu__line">Producto</a></li>
+              <li><a class="menu__line menu__title--family">Familia Suculentas</a></li>
+              <li><a href="tipos-echeverias.html" class="menu__family">Echeveria</a></li>
+              <li><a class="menu__family">Aonium</a></li>
+              <li><a href="tipos-senecio.html" class="menu__family">Senecio</a></li>
+              <li><a class="menu__family">Supervium</a></li>
+              <li><a class="menu__family">Cactus</a></li>
+              <li><a class="menu__family">Crassula</a></li>
+              <li><a class="menu__family">Kalanchoe</a></li>
+              <li><a class="menu__family">Haworthia</a></li>
+              <li><a class="menu__family">Sedum</a></li>
+              <li><a href="#signincart__modal" class="menu__line menu__register">Registrarse</a></li>
+              <li><a href="contacto.html" class="menu__line">Contacto</a></li>
+              <li><a class="menu__line menu__ayuda">Ayuda</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!---------header--------->
+      <div class="header clearfix">
+        <div class="tangle-1 clearfix">
+
+          <div class="header__logo">
+            <a href="index.html"><img src="img/logo.png" alt="Logo de Suculenta's Garden"></a>
+          </div>
+
+          <div class="header__menu">
+            <ul class="menu__nav clearfix">
+              <li class="nav__list button-principal"><a href="index.html">Inicio</a></li>
+              <li class="nav__list button-principal"><a href="tipos-echeverias.html">Producto</a></li>
+              <li class="nav__list button-principal"><a href="contacto.html">Contacto</a></li>
+              <li class="nav__list button-principal"><a href="#">Ayuda</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="tangle-2 clearfix">
+          <div class="search__bar">
+            <input type="text" placeholder="Buscar">
+            <img src="img/buscar.png">
+          </div>
+
+          <div class="signincart">
+            <a href="#signincart__modal"> <img src="img/Registrarse.png"></a>
+            <a id="drawer--view"><img class="cart" src="img/Carrito.png"></a>
+          </div>
+        </div>
+      </div>
+
+      <!---------Imagen Movil--------->
+      <div class="content--img"></div>
+
+      <!---------slider--------->
+      <div class="container-slider">
+        <div id="slider" class="slider">
+          <div class="slider--section">
+            <img src="img/slider-1.png" alt="" class="slider--img">
+          </div>
+          <div class="slider--section">
+            <img src="img//slider-3.jpg" alt="" class="slider--img">
+          </div>
+          <div class="slider--section">
+            <img src="img/slider-2.png" alt="" class="slider--img">
+          </div>
+        </div>
+        <div class="slider--btn slider--btn--right" id="btn--right">&#62;</div>
+        <div class="slider--btn slider--btn--left" id="btn--left">&#60;</div>
+      </div>
+      <!---------Curiosidades--------->
+      <div class="curiosities clearfix">
+        <div class="curiosities--img">
+          <img src="img/curiosidades.png" alt="Imagen ilustrativa">
+        </div>
+
+        <div class="curiosities__content">
+          <h1 class="curiosities--title">Curiosidades</h1>
+          <p>Las suculentas capturan el dióxido de carbono por la noche a través de sus poros abiertos, que cierran por la mañana para no perder nada de la humedad.
+            Así, resisten mejor las altas temperaturas diurnas y aprovechan los nutrientes. Al no abrir sus poros o estopas durante el día, sus hojas no se marchitan.
+          </p>
+          <a href="curiosities.html" class="button-principal">Ver más</a>
+        </div>
+      </div>
+
+      <!---------Descubre ofertas--------->
+      <div class="contentOffers clearfix">
+        <img  class="contentOffers--img" src="img/verOfertas.png" alt="cactus">
+        <div class="contentOffers2">
+          <h1>DESCUBRE NUESTRAS OFERTAS</h1>
+          <a href="offers.html" class="button-secondary">Ver ofertas</a>
+        </div>
+      </div>
+
+      <!---------Card de Familias--------->
+      <div id="cards" class="clearfix">
+        <h2>Familia de suculentas</h2>
+        <div class="card__row">
+          <div class="card__content">
+            <img class="card__content--img" src="img/echeveria.png" alt="Echeveria">
+            <p class="card__content--p">Echeveria</p>
+            <a href="tipos-echeverias.html" class="card__content--a">Saber más</a>
+          </div>
+
+          <div class="card__content">
+            <img class="card__content--img" src="img/aonium.png" alt="Echeveria">
+            <p class="card__content--p">Aonium</p>
+            <a href="#" class="card__content--a">Saber más</a>
+          </div>
+
+          <div class="card__content">
+            <img class="card__content--img" src="img/senecio.png" alt="Echeveria">
+            <p class="card__content--p">Senecio</p>
+            <a href="tipos-senecio.html" class="card__content--a">Saber más</a>
+          </div>
+        </div>
+
+        <div class="card__row">
+          <div class="card__content">
+            <img class="card__content--img" src="img/supervium.png" alt="Echeveria">
+            <p class="card__content--p">Supervium</p>
+            <a href="#" class="card__content--a">Saber más</a>
+          </div>
+
+          <div class="card__content">
+            <img class="card__content--img" src="img/cactus.png" alt="Echeveria">
+            <p class="card__content--p">Cactus</p>
+            <a href="#" class="card__content--a">Saber más</a>
+          </div>
+
+          <div class="card__content">
+            <img class="card__content--img" src="img/crassula.png" alt="Echeveria">
+            <p class="card__content--p">Crassula</p>
+            <a href="#" class="card__content--a">Saber más</a>
+          </div>
+        </div>
+
+        <div class="card__row card__row-3">
+          <div class="card__content card__content-3 card--kalanchoe">
+            <img class="card__content--img" src="img/kalanchoe.png" alt="Echeveria">
+            <p class="card__content--p">Kalanchoe</p>
+            <a href="#" class="card__content--a">Saber más</a>
+          </div>
+
+          <div class="card__content card__content-3">
+            <img class="card__content--img" src="img/haworthia.png" alt="Echeveria">
+            <p class="card__content--p">Haworthia</p>
+            <a href="#" class="card__content--a">Saber más</a>
+          </div>
+
+          <div class="card__content card__content-3">
+            <img class="card__content--img" src="img/sedum.png" alt="Echeveria">
+            <p class="card__content--p">Sedum</p>
+            <a href="#" class="card__content--a">Saber más</a>
+          </div>
+        </div>
+      </div>
+
+      <!--------------Modal-------------->
+      <div id="signincart__modal" class="modal">
+        <div class="modal__content">
+          <form action="">
+            <a class= "close__modal" href="#"><img src="img/boton-x.png"></a>
+            <img class="img__sign__up" src="img/registro.png">
+            <h2>Registrarse</h2>
+            <div class="google__facebook__icons">
+              <a href="#"><img src="img/google2.png" alt="Registrate con tu cuenta de google"></a>
+              <a href="#"><img src="img/fb.png" alt="Registrate con tu cuenta de facebook"></a>
+            </div>
+            <div class="sign__in__form">
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/persona.png" id="user-icon-form">
+                </div>
+                  <input class="input1" type="text" placeholder="Nombre Completo" required ="required"/>
+              </div>
+
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/correo.png" id="mail-icon-form">
+                </div>
+                  <input class="input1" type="text" placeholder="E-mail" required ="required"/>
+              </div>
+
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/contraseña.png" id="lock-icon-form">
+                </div>
+                <input class="input1" type="text" placeholder="Contraseña" required ="required"/>
+              </div>
+              <button type="submit" class="button-principal box_button--margin">Registrarse</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!---------Footer--------->
+      <div class="footer">
+        <div class="foo-menu clearfix">
+          <ul class="foo-nav-list">
+            <li class="nav-foo"><a href="index.html">Inicio</a></li>
+            <li class="nav-foo"><a href="tipos-echeverias.html">Producto</a></li>
+            <li class="nav-foo"><a href="contacto.html">Contacto</a></li>
+            <li class="nav-foo"><a href="#">Ayuda</a></li>
+          </ul>
+
+          <p class="copyright">© 2020 - Todos los derechos reservados</p>
+        </div>
+        <div class="follow-us">
+          <p>Síguenos aquí</p>
+          <a class="ig" href="www.instagram.com"><img src="img/instagram.png" alt="Cuenta de Instagram de Suculenta's Garden"></a>
+          <a class="fb" href="www.facebook.com"><img src="img/facebook.png" alt="Cuenta de Facebook de Suculenta's Garden"></a>
+        </div>
+      </div>
+    </div>
+    <script src="js/slider.js"></script>
+    <script src="js/shopping.js"></script>
+    <script src="js/drawer.js"></script>
+    <script src="js/menu--hamburguer.js"></script>
+  </body>
+</html>

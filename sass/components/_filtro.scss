@@ -1,0 +1,38 @@
+.filtro--Content{
+  margin-top: 61px;
+  margin-left: 241px;
+}
+
+.filtro--Content h2{
+  text-align: left;
+}
+
+summary.filtro--a{
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+details li a.filtro--a {
+  font-size: 20px;
+}
+
+.filtro--Content select{
+  background-color: $dark-brown;
+  color: $white;
+  font-size: 16px;
+  padding: 10px 20px 10px 0;
+}
+
+@media(max-width: 500px){
+  .filtro--Content{
+    margin-top: 10px;
+    margin-left: 246px;
+  }
+}
+
+@media(max-width: 400px){
+  .filtro--Content{
+    margin-top: 10px;
+    margin-left: 216px;
+  }
+}

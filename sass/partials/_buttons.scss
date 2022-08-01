@@ -1,0 +1,70 @@
+.content--buttons{
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.content--buttons a{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.buttons{
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 1080px;
+}
+
+.button-principal{
+  background-color: $dark-brown;
+  border: solid $dark-brown;
+  border-radius: 102px;
+  color: $white;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $light-brown-hover;
+
+    border: solid $light-brown-hover;
+    color:  $white;
+  }
+
+}
+
+.button-secondary{
+  background-color: $beige;
+  border: none;
+  border-radius: 102px;
+  color: $dark-brown;
+  font-weight: bold;
+  padding: 10px 20px;
+
+  &:hover {
+    background-color: $light-brown-hover;
+    color:  $white;
+  }
+}
+.button--margin{
+  margin-left: 60px;
+}
+.button--carrusel{
+  margin-left: 11px;
+}
+
+@media(max-width: 500px){
+  .button-principal{
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  .button--margin{
+    margin-left: 25px;
+  }
+  .button--carrusel{
+    margin-left: 18px;
+  }
+
+}

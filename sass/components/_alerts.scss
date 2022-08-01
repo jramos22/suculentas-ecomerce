@@ -1,0 +1,48 @@
+.alert-Container {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(46, 44, 44, 0.4);
+}
+
+.alert {
+  height: 286px;
+  width: 764px;
+  position: fixed;
+  background-color: $white;
+  margin: auto;
+  border: 1px solid $light-brown-hover;
+  position: relative;
+}
+.alert--movil {
+  width: 98.7%;
+}
+.alert img {
+  margin-top: 22px;
+  margin-left: 320px;
+}
+.alert--product img {
+  margin-top: 22px;
+  margin-left: -4px;
+}
+
+.alert h2 {
+  text-align: center;
+}
+
+.alert .details {
+  margin-left: 285px;
+}
+.alert .responsive {
+  margin-left: 0px;
+}
+
+.show {
+  display: block;
+}

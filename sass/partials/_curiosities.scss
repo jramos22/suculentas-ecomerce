@@ -1,0 +1,286 @@
+// Index Curiosities
+.curiosities--h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.section1{
+  height: 540px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding-top: 50px;
+  width: 1080px;
+}
+
+.text {
+  float: left;
+  margin: 0;
+  padding-top: 100px;
+  padding-right: 92px;
+  width: 600px;
+  h2 {
+    font-size: 30px;
+  }
+}
+
+.image--curiosities1{
+  background-image: url(../img/curiosidades-1.png);
+  background-size: cover;
+  height: 541px;
+  float: left;
+  margin: 0;
+  width: 386px;
+}
+
+.section2 {
+  height: 366px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding-top: 50px;
+  width: 1080px;
+}
+
+.text2 {
+  float: left;
+  margin: 0;
+  padding-top: 50px;
+  width: 610px;
+}
+
+.image--curiosities2 {
+  background-image: url(../img/curiosidades-2.png);
+  background-size: cover;
+  height: 366px;
+  float: right;
+  width: 416px;
+}
+
+
+.section3{
+  height: 368px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding-top: 60px;
+  width: 1080px;
+}
+
+.text3 {
+  float: left;
+  margin: 0;
+  padding-top: 50px;
+  width: 600px;
+}
+
+.image--curiosities3{
+  background-image: url(../img/curiosidades-3.png);
+  background-size: cover;
+  height: 368px;
+  float: right;
+  margin: 0;
+  width: 411px;
+}
+
+
+@media(max-width: 500px){
+  .header{
+    display: none;
+  }
+  .header--movil{
+    display: block;
+    margin: 0 auto;
+    height: 80px;
+    width: 450px;
+  }
+  .header__logo{
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .signincart{
+    margin-top: 20px;
+    padding-right: 70px;
+  }
+  .site-map a{
+    display: none;
+  }
+  .curiosities--h1{
+    display: none;
+  }
+  .section1{
+    height: 540px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    width: 400px;
+  }
+  .text {
+    float: none;
+    line-height: 30px;
+    padding-top: 0;
+    width: 400px;
+
+    h2{
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    p{
+      text-align: left;
+      margin-bottom: 40px;
+    }
+  }
+  .image--curiosities1{
+    margin-bottom: 100px;
+    padding-left: 16px;
+  }
+  .section2 {
+    height: 1300px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    width: 400px;
+  }
+
+  .text2 {
+    float: none;
+    line-height: 30px;
+    padding-top: 0;
+    width: 400px;
+    h2{
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    p{
+      text-align: left;
+      margin-bottom: 40px;
+    }
+  }
+  .image--curiosities2{
+    float: right;
+    margin-bottom: 100px;
+    width: 400px;
+  }
+
+  .section3{
+    height: 900px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    width: 400px;
+  }
+
+  .text3 {
+    float: none;
+    line-height: 30px;
+    padding-top: 0;
+    width: 400px;
+    h2{
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    p{
+      text-align: left;
+      margin-bottom: 40px;
+    }
+  }
+  .image--curiosities3{
+    width: 400px;
+  }
+}
+
+@media(max-width: 400px){
+  .site-map a{
+    display: none;
+  }
+  .curiosities--h1{
+    display: none;
+  }
+  .curiosities--content{
+    width: 400px;
+
+  }
+  .section1{
+    height: 550px;
+    margin: 0 auto;
+    margin-bottom: 190px;
+    padding-top: 50px;
+    width: 400px;
+  }
+  .text {
+    float: none;
+    line-height: 28px;
+    margin-left: 20px;
+    padding-top: 0;
+    width: 350px;
+
+    h2{
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    p{
+      text-align: left;
+      margin-bottom: 40px;
+    }
+  }
+  .image--curiosities1{
+    height: 502px;
+    margin-bottom: 70px;
+    margin-left: 15px;
+    width: 342px;
+  }
+  .section2 {
+    height: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 400px;
+  }
+
+  .text2 {
+    float: none;
+    line-height: 28px;
+    margin-left: 20px;
+    padding-top: 0;
+    width: 350px;
+    h2{
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    p{
+      text-align: left;
+      margin-bottom: 40px;
+    }
+  }
+  .image--curiosities2{
+    height: 313px;
+    float: right;
+    margin-bottom: 70px;
+    margin-right: 29px;
+    width: 357px;
+  }
+
+  .section3{
+    height: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 400px;
+  }
+
+  .text3 {
+    float: none;
+    line-height: 28px;
+    margin-left: 20px;
+    padding-top: 0;
+    width: 350px;
+    h2{
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    p{
+      text-align: left;
+      margin-bottom: 40px;
+    }
+  }
+  .image--curiosities3{
+    height: 322px;
+    margin-right: 27px;
+    width: 361px;
+  }
+}

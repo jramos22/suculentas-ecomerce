@@ -1,0 +1,158 @@
+#shoppingCart{
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 100%;
+}
+
+.shoppingCart__content{
+  border-bottom: 1px solid $light-brown-hover;
+  width: 100%;
+}
+
+.shoppingCart__content--img{
+  float: left;
+  margin-left: 20px;
+}
+
+.shoppingCart__content--img img {
+  width: 150px;
+}
+
+.shoppingCart__content--title{
+  color: $dark-brown;
+  float: left;
+  margin-left: 13px;
+  padding-top: 31px;
+}
+
+.shoppingCart__content--info{
+  float: right;
+  padding-right: 22px;
+  padding-top: 31px;
+}
+
+.info--amount{
+  float: left;
+  margin-left: 54px;
+  margin-right: 54px;
+}
+
+.info--cost{
+  float: left;
+  margin-right: 38px;
+  width: 46px;
+}
+
+.info--button{
+  background-color: $dark-brown;
+  border:1px solid $dark-brown;
+  border-radius: 100%;
+  color: $white;
+  margin-top: 12px;
+  padding: 5px 10px;
+}
+.content--buttonShopping{
+  margin-bottom: 53px;
+  margin-left: 531px;
+  margin-top: 53px;
+}
+.content--buttonShopping a{
+  background-color: $dark-brown;
+  border: solid $dark-brown;
+  border-radius: 102px;
+  color: $white;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.showshopping--content{
+  margin-left: 247px;
+}
+
+@media(max-width: 500px){
+  #shoppingCart{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1080px;
+  }
+
+  .shoppingCart__content{
+    border-bottom: 1px solid $light-brown-hover;
+    width: 403px;
+  }
+
+  .shoppingCart__content--img{
+    margin-left: 5px;
+    padding-top: 10px;
+  }
+  .shoppingCart__content--img img {
+    width: 50px;
+  }
+
+  .shoppingCart__content--title{
+    font-size: 10px;
+    margin-left: 2px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 153px;
+  }
+
+  .shoppingCart__content--info{
+    float: right;
+    padding-right: 13px;
+    padding-top: 18px;
+  }
+
+  .info--amount{
+    float: left;
+    margin-left: 11px;
+    margin-right: 54px;
+  }
+
+  .info--cost{
+    float: left;
+    margin-right: 22px;
+    width: 46px;
+  }
+
+  .info--button{
+    background-color: $dark-brown;
+    border:1px solid $dark-brown;
+    border-radius: 100%;
+    color: $white;
+    margin-top: 0px;
+    padding: 5px 10px;
+  }
+  .content--buttonShopping{
+    margin-left: 189px;
+  }
+  .showshopping--content{
+    margin-left: 45px;
+  }
+}
+
+@media(max-width: 400px){
+  .shoppingCart__content--title{
+    width: 130px;
+  }
+
+  .shoppingCart__content--info{
+    padding-right: 47px;
+  }
+
+  .info--amount{
+    margin-left: 0px;
+    margin-right: 17px;
+  }
+
+  .info--cost{
+    margin-right: 22px;
+    width: 46px;
+  }
+  .content--buttonShopping{
+    margin-left: 135px;
+  }
+  .showshopping--content{
+    margin-left: 0px;
+  }
+}

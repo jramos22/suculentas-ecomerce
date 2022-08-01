@@ -1,0 +1,153 @@
+.modal__content{
+  background-color:$beige;
+  height: 950px;
+  margin: 2% auto;
+  position: relative;
+  width:800px;
+  .img__sign__up{
+    width: 800px;
+  }
+
+  h2{
+    color: $dark-brown;
+    font-family: $bebas-neue;
+    text-align: center;
+  }
+
+  .close__modal img{
+    margin: 10px 10px;
+  }
+
+  .google__facebook__icons{
+    text-align: center;
+    a{
+      padding-bottom: 30px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+}
+
+.sign__in__form{
+  align-items: center;
+}
+
+.box{
+  margin-left: 130px;
+}
+
+
+.input1 {
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 50px;
+  padding-top: 10px;
+  position: relative;
+  width: 458px;
+}
+
+.icon__form{
+  margin: 10px 5px 7px 8px;
+  position: absolute;
+  z-index: 1;
+}
+.box_button--margin{
+  margin-left: 325px;
+}
+
+.modal{
+  background-color: rgba(0,0,0,.8);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  display: none;
+  pointer-events:none;
+  transition: all 1s;
+}
+#signincart__modal:target{
+  display: block;
+  pointer-events:auto;
+}
+
+// mobile
+
+@media(max-width: 500px){
+  .modal__content{
+    height: 650px;
+    margin: 13% auto;
+    position: relative;
+    width: 354px;
+    .img__sign__up{
+      width: 354px;
+    }
+    .google__facebook__icons a img{
+
+      margin-bottom: 30px;
+      text-align: center;
+      width: 46px;
+    }
+  }
+  .sign__in__form{
+    align-items: center;
+  }
+
+  .box{
+    margin-left: 0;
+  }
+
+
+  .input1 {
+    border:1px solid $white;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-top: 10px;
+    position: relative;
+    width: 301px;
+  }
+  .box_button--margin{
+    margin-left: 114px;
+    margin-top: 22px;
+  }
+}
+
+@media(max-width: 300px){
+  .modal__content{
+    height: 600px;
+    margin: 13% auto;
+    position: relative;
+    width: 290px;
+    .img__sign__up{
+      width: 290px;
+    }
+    .google__facebook__icons a img{
+
+      margin-bottom: 30px;
+      text-align: center;
+      width: 46px;
+    }
+  }
+  .sign__in__form{
+    align-items: center;
+  }
+
+  .box{
+    margin-left: 0;
+  }
+
+  .input1 {
+    border: 1px solid $white;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-top: 10px;
+    position: relative;
+    width: 237px;
+  }
+  .box_button--margin{
+    margin-left: 84px;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Khula:wght@300&display=swap" rel="stylesheet">
+    <title>Suculenta's Garden</title>
+  </head>
+  <body>
+    <div id="wrapper--principal">
+      <!--------------Carrito de compras-------------->
+      <div id="drawer--js" class="drawer">
+        <a id="drawer--close" class="closebtn">&times;</a>
+        <div id="shoppingCart"></div>
+        <div class="content--button"><a href="carrito.html">Comprar</a></div>
+      </div>
+
+      <!--------------Menú hamburguesa-------------->
+      <div class="header--movil">
+        <div class="header__logo">
+          <a href="index.html"><img src="img/logo-movil.png" alt="Logo de Suculenta's Garden"></a>
+        </div>
+
+        <div class="signincart">
+          <a id="drawer--movil"><img class="cart" src="img/carrito-movil.png"></a>
+        </div>
+
+        <div class="content--hamburguer">
+          <a id="menu--movil"><img src="img/menu-hamburguesa.png"></a>
+        </div>
+
+        <div id="menu--js" class="drawer--menu">
+          <a id="menu--close" class="closebtn">&times;</a>
+          <div class="menu--hamburguer">
+            <ul>
+              <li><a href="index.html" class="menu__line">Inicio</a></li>
+              <li><a href="tipos-echeverias.html" class="menu__line">Producto</a></li>
+              <li><a class="menu__line menu__title--family">Familia Suculentas</a></li>
+              <li><a href="tipos-echeverias.html" class="menu__family">Echeveria</a></li>
+              <li><a class="menu__family">Aonium</a></li>
+              <li><a href="tipos-senecio.html" class="menu__family">Senecio</a></li>
+              <li><a class="menu__family">Supervium</a></li>
+              <li><a class="menu__family">Cactus</a></li>
+              <li><a class="menu__family">Crassula</a></li>
+              <li><a class="menu__family">Kalanchoe</a></li>
+              <li><a class="menu__family">Haworthia</a></li>
+              <li><a class="menu__family">Sedum</a></li>
+              <li><a href="#signincart__modal" class="menu__line menu__register">Registrarse</a></li>
+              <li><a href="contacto.html" class="menu__line">Contacto</a></li>
+              <li><a class="menu__line menu__ayuda">Ayuda</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!---------header--------->
+      <div class="header clearfix">
+        <div class="tangle-1 clearfix">
+
+          <div class="header__logo">
+            <a href="index.html"><img src="img/logo.png" alt="Logo de Suculenta's Garden"></a>
+          </div>
+
+          <div class="header__menu">
+            <ul class="menu__nav clearfix">
+              <li class="nav__list button-principal"><a href="index.html">Inicio</a></li>
+              <li class="nav__list button-principal"><a href="tipos-echeverias.html">Producto</a></li>
+              <li class="nav__list button-principal"><a href="contacto.html">Contacto</a></li>
+              <li class="nav__list button-principal"><a href="#">Ayuda</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="tangle-2 clearfix">
+          <div class="search__bar">
+            <input type="text" placeholder="Buscar">
+            <img src="img/buscar.png">
+          </div>
+
+          <div class="signincart">
+            <a href="#signincart__modal"> <img src="img/Registrarse.png"></a>
+            <a id="drawer--view"><img class="cart" src="img/Carrito.png"></a>
+          </div>
+        </div>
+      </div>
+
+      <!--breadcrumb-->
+      <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ol>
+          <li>
+            <a href="./index.html">
+              INICIO
+            </a>
+          </li>
+          <li>
+            <a href="tipos-echeverias.html">TIPOS DE ECHEVERIAS</a>
+          </li>
+          <li>
+            <a href="producto-lola.html" aria-current="page">ECHEVERIA LOLA</a>
+          </li>
+        </ol>
+      </nav>
+
+      <!--------------Tabs-------------->
+      <div class="tabs">
+        <ul class="tabs__list clearfix">
+          <li><a href="#tabs__content--tab1" class="tabs__list--menu">Detalle producto</a></li>
+          <li><a href="#tabs__content--tab2" class="tabs__list--menu">Como cuidarlas</a></li>
+          <li><a href="#tabs__content--tab3" class="tabs__list--menu">Comprar producto</a></li>
+        </ul>
+
+        <div class="tabs__content">
+          <div id="tabs__content--tab1" class="tabs__content--info clearfix">
+            <div class="gallery">
+              <!--Contenedor donde se va ver la imagen en grande-->
+              <div class="gallery-content">
+                <div id="img-1" class="gallery-content-img">
+                  <img id="big-image" src="img/5.png" alt="newzealand1">
+                </div>
+              </div>
+              <div class="wrapper-gallery clearfix">
+                <div class="gallery-prev clearfix">
+                  <ul class="gallery-list">
+                    <li class="gallery-list-img"><img class="miniatura" src="img/23.png" alt="galeria1"></li>
+                    <li class="gallery-list-img"><img class="miniatura" src="img/5.png" alt="galeria2"></li>
+                </div>
+              </div>
+            </div>
+
+            <div class="tabs__info">
+              <h1>Echeveria Lola</h1>
+              <p>
+                Este tipo de echeveria es un híbrido de dos especies. La lolita es una de las suculentas más comunes hoy día, aún así sigue siendo hermosa. Me gusta describirla como una suculenta elegante y simple.
+              </p>
+              <ul>
+                <li><span>Area Nativa:</span>Híbrido</li>
+                <li><span>Altura:</span>6 pulgadas</li>
+                <li><span>Iluminación:</span>Sol directo en las mañanas o en las tardes.</li>
+              </ul>
+            </div>
+          </div>
+          <div id="tabs__content--tab2" class="tabs__content--info">
+            <h1>Cuidados</h1>
+            <ul>
+              <li>Sol directo en las mañanas o en las tardes.</li>
+              <li>Se puede cultivar como planta de interior o exterior.</li>
+              <li>Riego: cada semana o cada dos semanas durante la temporada de crecimiento en vera no y disminuye el riego en invierno.</li>
+              <li>Tamaño: 6 pulgadas de alto y 12 pulgadas de ancho.</li>
+              <li>No resiste bien temperaturas heladas.</li>
+              <li>Propagación por hijuelos.</li>
+            </ul>
+          </div>
+          <div id="tabs__content--tab3" class="tabs__content--info">
+            <div class="tabs__content--addShoppingCart">
+              <img src="img/5.png" alt="suculenta">
+
+              <p id="price">$8.00</p>
+
+              <img src="img/estrellas.png" alt="estrellas">
+              <button id="addjs" class="button-principal">Añadir al carrito</button>
+              <div class="alert-Container" id="alert__Container"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------Accordeon movil-------------->
+      <div class="main-container clearfix">
+        <div class="list-container">
+          <div class="item ">
+            <p class="btn-item">Detalle producto</p>
+            <div class="item-content">
+              <h2>Echeveria Lola</h2>
+              <p>
+                Este tipo de echeveria es un híbrido de dos especies. La lolita es una de las suculentas más comunes hoy día, aún así sigue siendo hermosa. Me gusta describirla como una suculenta elegante y simple.
+              </p>
+              <ul>
+                <li><span>Area Nativa:</span>Híbrido</li>
+                <li><span>Altura:</span>6 pulgadas</li>
+                <li><span>Iluminación:</span>Sol directo en las mañanas o en las tardes.</li>
+              </ul>
+
+              <div class="gallery">
+                <!--Contenedor donde se va ver la imagen en grande-->
+                <div class="gallery-content">
+                  <div id="img-1" class="gallery-content-img">
+                    <img id="big-mobile" src="img/5.png" alt="newzealand1">
+                  </div>
+                </div>
+                <div class="wrapper-gallery clearfix">
+                  <div class="gallery-prev clearfix">
+                    <ul class="gallery-list">
+                      <li class="gallery-list-img"><img class="mini" src="img/23.png" alt="galeria1"></li>
+                      <li class="gallery-list-img"><img class="mini" src="img/5.png" alt="galeria2"></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <p class="btn-item">Como cuidarlas</p>
+              <div class="item-content">
+                <h2>Cuidados</h2>
+                <ul>
+                  <li>Sol directo en las mañanas o en las tardes.</li>
+                  <li>Se puede cultivar como planta de interior o exterior.</li>
+                  <li>Riego: cada semana o cada dos semanas durante la temporada de crecimiento en vera no y disminuye el riego en invierno.</li>
+                  <li>Tamaño: 6 pulgadas de alto y 12 pulgadas de ancho.</li>
+                  <li>No resiste bien temperaturas heladas.</li>
+                  <li>Propagación por hijuelos.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <p class="btn-item">Comprar producto</p>
+              <div class="item-content">
+                <div class="accordion__info--addCard">
+                  <img src="img/5.png" alt="suculenta">
+
+                  <p>$6.00</p>
+
+                  <img src="img/estrellas.png" alt="estrellas">
+                  <button id="addjs-responsive" class="button-principal">Añadir al carrito</button>
+                  <div class="alert-Container alert--responsive" id="alert__Container-responsive"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------carrusel-------------->
+      <div class="container-carrusel carrusel--Desktop">
+        <h1>Productos Relacionados</h1>
+        <div class="center">
+          <div class="wrapperCarrusel">
+            <div class="inner">
+              <div class="cards margin--card">
+                <img src="img/7.png">
+                <div class="content">
+                  <h1>Senecio Cocoon Plant</h1>
+                  <h3>$ 9.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <a href="producto-cocoon.html" class="button-principal button--carrusel">Ver Detalles</a>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="img/8.png">
+                <div class="content">
+                  <h1>Senecio Articulatus</h1>
+                  <h3>$ 8.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <a href="producto-articulatus.html" class="button-principal button--carrusel">Ver Detalles</a>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="img/26.png">
+                <div class="content">
+                  <h1>Senecio Barbertonicus</h1>
+                  <h3>$ 7.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <a href="producto-barbertonicus.html" class="button-principal button--carrusel">Ver Detalles</a>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="img/10.png">
+                <div class="content">
+                  <h1>Senecio Crassissimus</h1>
+                  <h3>$ 6.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <a href="producto-crassissimus.html" class="button-principal button--carrusel">Ver Detalles</a>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="img/11.png">
+                <div class="content">
+                  <h1>Senecio Citriformis</h1>
+                  <h3>$ 4.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <a href="producto-citriformis.html" class="button-principal button--carrusel">Ver Detalles</a>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="img/12.png">
+                <div class="content">
+                  <h1>Senecio Jacobsenii</h1>
+                  <h3>$ 2.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <a href="producto-jacobsenii.html" class="button-principal button--carrusel">Ver Detalles</a>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="img/13.png">
+                <div class="content">
+                  <h1>Cactus Mammallaria</h1>
+                  <h3>$ 12.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <a href="p#" class="button-principal button--carrusel">Ver Detalles</a>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="img/14.png">
+                <div class="content">
+                  <h1>Cactus Lophophora</h1>
+                  <h3>$ 6.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <a href="#" class="button-principal button--carrusel">Ver Detalles</a>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="img/15.png">
+                <div class="content">
+                  <h1>Suculenta Aloe Vera</h1>
+                  <h3>$ 6.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <a href="#" class="button-principal button--carrusel">Ver Detalles</a>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="img/4.png">
+                <div class="content">
+                  <h1>Echeveria Champán Rosa</h1>
+                  <h3>$ 2.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <a href="producto-champan.html" class="button-principal button--carrusel">Ver Detalles</a>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="img/1.png">
+                <div class="content">
+                  <h1>Echeveria Agavoides</h1>
+                  <h3>$ 6.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <a href="producto-agavoides.html" class="button-principal button--carrusel">Ver Detalles</a>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="img/2.png">
+                <div class="content">
+                  <h1>Echeveria Black Prince</h1>
+                  <h3>$ 13.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <a href="producto-blackprince.html" class="button-principal button--carrusel">Ver Detalles</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="map">
+            <button class="active first"></button>
+            <button class="second"></button>
+            <button class="third"></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-carrusel carrusel--Movil">
+        <h1>Productos Relacionados</h1>
+        <div class="center">
+          <div class="wrapperCarrusel">
+            <div class="inner--Movil">
+              <div class="cards margin--card">
+                <img src="img/7.png">
+                <div class="content">
+                  <h1>Senecio Cocoon Plant</h1>
+                  <h3>$ 9.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <a href="producto-cocoon.html" class="button-principal button--carrusel">Ver Detalles</a>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="img/8.png">
+                <div class="content">
+                  <h1>Senecio Articulatus</h1>
+                  <h3>$ 8.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <a href="producto-articulatus.html" class="button-principal button--carrusel">Ver Detalles</a>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="img/26.png">
+                <div class="content">
+                  <h1>Senecio Barbertonicus</h1>
+                  <h3>$ 7.00</h3>
+                  <img src="img/estrellas.png" class="star">
+                  <a href="producto-barbertonicus.html" class="button-principal button--carrusel">Ver Detalles</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="map--Movil">
+            <button class="active first"></button>
+            <button class="second"></button>
+            <button class="third"></button>
+          </div>
+        </div>
+      </div>
+
+      <!--------------Modal-------------->
+      <div id="signincart__modal" class="modal">
+        <div class="modal__content">
+          <form action="">
+            <a class= "close__modal" href="#"><img src="img/boton-x.png"></a>
+            <img class="img__sign__up" src="img/registro.png">
+            <h2>Registrarse</h2>
+            <div class="google__facebook__icons">
+              <a href="#"><img src="img/google.png" alt="Registrate con tu cuenta de google"></a>
+              <a href="#"><img src="img/face-register.png" alt="Registrate con tu cuenta de facebook"></a>
+            </div>
+            <div class="sign__in__form">
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/persona.png" id="user-icon-form">
+                </div>
+                  <input class="input1" type="text" placeholder="Nombre Completo" required ="required"/>
+              </div>
+
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/correo.png" id="mail-icon-form">
+                </div>
+                  <input class="input1" type="text" placeholder="E-mail" required ="required"/>
+              </div>
+
+              <div class="box">
+                <div class="icon__form">
+                  <img src="img/contraseña.png" id="lock-icon-form">
+                </div>
+                <input class="input1" type="text" placeholder="Contraseña" required ="required"/>
+              </div>
+              <button type="submit" class="button-principal box_button--margin">Registrarse</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!---------Footer--------->
+      <div class="footer">
+        <div class="foo-menu clearfix">
+          <ul class="foo-nav-list">
+            <li class="nav-foo"><a href="index.html">Inicio</a></li>
+            <li class="nav-foo"><a href="tipos-echeverias.html">Producto</a></li>
+            <li class="nav-foo"><a href="contacto.html">Contacto</a></li>
+            <li class="nav-foo"><a href="#">Ayuda</a></li>
+          </ul>
+
+          <p class="copyright">© 2020 - Todos los derechos reservados</p>
+        </div>
+        <div class="follow-us">
+          <p>Síguenos aquí</p>
+          <a class="ig" href="www.instagram.com"><img src="img/instagram.png"
+              alt="Cuenta de Instagram de Suculenta's Garden"></a>
+          <a class="fb" href="www.facebook.com"><img src="img/facebook.png"
+              alt="Cuenta de Facebook de Suculenta's Garden"></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/tabs.js"></script>
+    <script src="js/galery.js"></script>
+    <script src="js/carrusel.js"></script>
+    <script src="js/shopping.js"></script>
+    <script src="js/addsshoppingcar.js"></script>
+    <script src="js/drawer.js"></script>
+    <script src="js/accordeon.js"></script>
+    <script src="js/menu--hamburguer.js"></script>
+
+  </body>
+</html>

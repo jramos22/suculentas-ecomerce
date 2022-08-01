@@ -1,0 +1,152 @@
+#cards{
+  margin: 0 auto;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  width: 900px;
+}
+#cards h2{
+  font-size: 45px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.card__content{
+  background-color: $white;
+  border-radius: 20px;
+  box-shadow: -2.23663px 5.96436px 52.1881px rgba(0, 0, 0, 0.15);
+  float: right;
+  height: 319px;
+  position: relative;
+  width: 275px;
+}
+.card__content +.card__content{
+  margin-bottom: 50px;
+  margin-right: 37px;
+}
+
+.card__content--p{
+  font-family: $bebas-neue;
+  font-size: 36px;
+  letter-spacing: 7px;
+  margin-bottom: 0;
+  padding-top: 160px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.card__content--a{
+  background-color: $dark-brown;
+  border-radius: 100px;
+  color: $white;
+  float: right;
+  margin-top: 10px;
+  margin-right: 48px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.card__content--a:hover{
+  background-color: $light-brown-hover;
+}
+
+.card__content--img{
+  position: absolute;
+  top: -50px;
+  left: -50px;
+}
+
+@media(max-width: 500px){
+  #cards{
+    margin: 0 auto;
+    width: 450px;
+  }
+  .card__row{
+    float: left;
+    padding-left: 23px;
+    width: 200px;
+  }
+  .card__row-3{
+    width: 425px;
+  }
+  .card__content{
+    background-color: $white;
+    border-radius: 20px;
+    box-shadow: -2.23663px 5.96436px 52.1881px rgba(0, 0, 0, 0.15);
+    float: none;
+    height: 190px;
+    margin-bottom: 68px;
+    position: relative;
+    width: 160px;
+  }
+  .card__content-3{
+    float: right;
+    margin-right: 65px;
+  }
+  .card--kalanchoe{
+    margin-left: 29px;
+    margin-right: 39px;
+  }
+  .card__content--p{
+    font-family: $bebas-neue;
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    padding-top: 80px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .card__content--a{
+    background-color: $dark-brown;
+    border-radius: 100px;
+    color: $white;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  .card__content--img{
+    height: 124px;
+    position: absolute;
+    top: -50px;
+    left: -30px;
+    width: 145px;
+  }
+
+}
+
+@media(max-width: 400px){
+  #cards{
+    margin-left: 43px;
+    width: 310px;
+  }
+  .card__row{
+    float: none;
+  }
+  .card__row-3{
+    width: 304px;
+  }
+  .card__content{
+    float: none;
+    height: 300px;
+    width: 246px;
+  }
+  .card__content-3{
+    float: none;
+    margin-right: 65px;
+  }
+  .card--kalanchoe{
+    margin-left: 0px;
+  }
+  .card__content--p{
+    font-size: 44px;
+    padding-top: 171px;
+
+  }
+  .card__content--a{
+    margin-top: 15px;
+    padding: 10px 17px;
+  }
+  .card__content--img{
+    height: 200px;
+    width: 221px;
+  }
+}

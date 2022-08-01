@@ -1,0 +1,59 @@
+// Colors
+$dark-brown: #292021;
+$light-brown-hover: #886750;
+$white: #ffff;
+$light-gray: #ededed;
+$placeholder-search: #494b46;
+$beige: #c9c0bb;
+
+// Fonts
+$sans: 'Open Sans', sans-serif;
+$bebas-neue:  'Bebas Neue', cursive;
+
+//tipografias
+h1,h2,h3,h4{
+  color: $dark-brown;
+  font-family: $bebas-neue;
+}
+p{
+  font-size: 18px;
+  color: $dark-brown;
+  font-family: $sans;
+}
+li{
+  font-size: 16px;
+  color: $dark-brown;
+  font-family: $sans;
+}
+a{
+  color: $dark-brown;
+  font-family: $sans;
+  font-weight: bold;
+}
+
+// configure
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#wrapper--principal{
+  margin: 0 auto;
+  width: 1280px;
+}
+
+@media(max-width: 500px){
+  #wrapper--principal{
+    max-width: 100%;
+    margin: 0 auto;
+    width: 500px;
+  }
+}
+@media(max-width: 400px){
+  #wrapper--principal{
+    max-width: 100%;
+    margin: 0 auto;
+    width: 400px;
+  }
+}
